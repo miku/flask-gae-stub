@@ -6,9 +6,7 @@ from flask import redirect, url_for, request, render_template, abort, \
 
 @app.route('/')
 def index():
-	env = request.environ
-	keys = sorted(env)
-	return render_template('index.html', **locals())
+	return render_template('index.html')
 
 # set the secret key.  keep this really secret:
 app.secret_key = 'asd768%&dasduz76s90changeme87//'

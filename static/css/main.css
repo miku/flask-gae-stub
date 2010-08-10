@@ -1,16 +1,17 @@
-body {
-	font: 65% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
-	margin: 0px;
-	padding: 0px;
+body { 
+	font-family: 'Georgia', serif; 
+	font-size: 17px; 
+	color: #000; 
+	margin: 0px; 
+	padding: 0px; 
+	width: 321px;
+	margin: auto;
 }
 
-#header {
-	color: black;
-	background: #DDEEFF;
-	padding: 5px;
-	border-bottom: 5px solid orange;
+#content {
+	color: black; 
+	padding: 10px;
+	background: #ECECEC;
 }
 
-#env {
-	border-bottom: 5px solid orange;
-}
+img { padding: 30px 0px 30px 0px; background: #EFEFEF;}

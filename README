@@ -3,3 +3,26 @@ README
 
 Kit to get started with Flask and Google App Engine. Includes
 a recent Flask and its dependencies.
+
+Getting started
+---------------
+
+	Make sure you installed the GAE tools, e.g. dev_appserver, etc.
+
+	$ git clone http://github.com/miku/flask-gae-stub
+	$ cd flask-gae-stub
+	$ dev_appserver.py .
+	
+	Point your browser to http://localhost:8080/
+
+
+Clipart Licence
+---------------
+
+See: http://etc.usf.edu/clipart/license/license.htm
+
+Educational Use. A maximum of fifty (50) clipart items may be used in any
+non-commercial, educational project (report, presentation, display, website,
+etc.) without special permission. The use of more than fifty clipart items in
+a single project requires written permission from the Florida Center for
+Instructional Technology (FCIT) at USF.
