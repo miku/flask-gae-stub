@@ -1,3 +1,16 @@
 body {
-	background: #C0D9AF;
+	font: 65% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	color: black;
+	background: #DDEEFF;
+	padding: 5px;
+	border-bottom: 5px solid orange;
+}
+
+#env {
+	border-bottom: 5px solid orange;
 }

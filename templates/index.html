@@ -1,1 +1,25 @@
-<p>Hi, we're running Flask on GAE.</p>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>GAE and Flask</title>
+	<link rel="stylesheet" href="/static/css/main.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+	<div id="header">
+		<p>Hi, we're running Flask on GAE.</p>
+		<p>Go on with <a href="http://flask.pocoo.org/docs/quickstart/">Flask Quickstart</a>
+			and <a href="http://code.google.com/appengine/docs/python/gettingstarted/usingdatastore.html">use
+				the GAE datastore</a>.</p>
+	</div>
+	<div id="env">
+		<table border="0" cellspacing="3" cellpadding="0">
+			{% for key in keys %}		
+			<tr><td><strong>{{ key }}</strong></td><td>{{ env[key] }}</td></tr>
+			{% endfor %}
+		</table>
+	</div>
+</body>
+</html>
+
+
