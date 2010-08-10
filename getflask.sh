@@ -26,6 +26,7 @@ cp -r $TMP_DIR/$FLASK_DIR/flask .
 
 # Get Werkzeug
 # ............
+
 WERKZEUG_DIR=Werkzeug-$WERKZEUG_VERSION
 WERKZEUG_DIST=Werkzeug-$WERKZEUG_VERSION.tar.gz
 WERKZEUG_ON_PYPI=http://pypi.python.org/packages/source/W/Werkzeug/$WERKZEUG_DIST
@@ -40,6 +41,7 @@ cp -r $TMP_DIR/$WERKZEUG_DIR/werkzeug .
 
 # Get Jinja2
 # ..........
+
 JINJA2_DIR=Jinja2-$JINJA2_VERSION
 JINJA2_DIST=Jinja2-$JINJA2_VERSION.tar.gz
 JINJA2_ON_PYPI=http://pypi.python.org/packages/source/J/Jinja2/$JINJA2_DIST
