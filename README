@@ -8,12 +8,27 @@ Getting started
 ---------------
 
 	Make sure you installed the GAE tools, e.g. dev_appserver, etc.
+	(See: http://code.google.com/appengine/downloads.html, for Mac OS X
+	http://googleappengine.googlecode.com/files/GoogleAppEngineLauncher-1.3.5.dmg)
 
 	$ git clone git://github.com/miku/flask-gae-stub.git
 	$ cd flask-gae-stub
 	$ dev_appserver.py .
 	
 	Point your browser to http://localhost:8080/
+	
+Issues
+------
+
+Sometimes an ``ImportError: No module named inspect`` occurs, when
+the app is started from the command line. GAE Launcher had no problem
+with the same project, so this issue remains a little mystery for now.
+
+Note: In 50% of the cases, 
+
+	$ dev_appserver.py .
+	
+works fine, though.
 
 
 Clipart Licence
